@@ -1,0 +1,87 @@
+._burger-btn {
+    @media (min-width: 556px) {
+        display: none;
+    }
+    transition: all 0.4s;
+    display: block;
+    width: 32px;
+    height: 18px;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 20;
+
+    span {
+        transition: all 0.4s;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 3px;
+        background-color: $cl_or;
+    }
+
+    &._active {
+        span:last-child {
+            transform: rotate(-45deg) translate(9px, -10px);
+        }
+
+        span:first-child {
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.menu__burger {
+    @media (min-width: 556px) {
+        display: none;
+    }
+    overflow: auto;
+    transition: all 0.3s;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 58%;
+    height: 100%;
+    background: #fff;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 20px 0 0;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    font-size: 18px;
+
+    .checkbox {
+        display: block;
+    }
+
+    a {
+        color: #151721;
+        margin-top: 18px;
+    }
+
+    &._active {
+        right: 0;
+        box-shadow: 0px 6px 10px rgb(0 0 0 / 56%);
+    }
+}
+
+.burger-menu {
+    .burger-menu__tell {
+    }
+
+    .burger-menu__item {
+    }
+
+    .burger-menu__enter {
+    }
+
+    .checkbox {
+    }
+
+    .switchMode {
+    }
+}
+

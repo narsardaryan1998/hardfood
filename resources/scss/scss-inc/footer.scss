@@ -1,0 +1,220 @@
+.footer {
+    position: static;
+    z-index: 1;
+    margin-top: -120px;
+    height: 400px;
+    width: 1440px;
+    padding: 130px 140px 0 140px;
+    background-position: bottom 50px left 0px, bottom 50px right 0px;
+    background-repeat: no-repeat;
+
+    & {
+        .sub_menu {
+            display: flex;
+            margin-top: 60px;
+            justify-content: space-between;
+
+            .social {
+                margin-top: -15px;
+                width: 115px;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &:last-child {
+                margin: 60px 0 0 0;
+            }
+        }
+    }
+}
+
+.policy {
+    height: 20px;
+    font-size: 16px;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.instagram_link {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF url(../img/instagram_wh.svg) no-repeat center;
+
+    &:hover {
+        background: #FFFFFF url(../img/instagram_wh_onHower.svg) no-repeat center;
+    }
+}
+
+.facebook {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF url(../img/facebook_wh.svg) no-repeat center;
+
+    &:hover {
+        background: #FFFFFF url(../img/facebook_wh_onHover.svg) no-repeat center;
+    }
+}
+
+.blog {
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.visa {
+    margin: 5px 24px 0 0;
+    display: inline-block;
+    background: url(../img/visa-logo.svg) no-repeat center;
+    width: 45px;
+    height: 15px;
+}
+
+#year {
+    font-size: 16px;
+    line-height: 20px;
+    color: #211D1B;
+    opacity: 0.5;
+}
+
+@media (max-width: 556px) {
+    .footer {
+        margin-top: -120px;
+        width: 375px;
+        padding: 61px 16px;
+        height: 360px;
+
+        & {
+            .sub_menu {
+                display: flex;
+                margin-top: 60px;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .social {
+                    margin-top: -15px;
+                    width: 115px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                &:last-child {
+                    margin: 60px 0 0 0;
+                }
+            }
+        }
+
+        .menu {
+            display: none;
+        }
+    }
+
+    .policy {
+        order: 3;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .instagram_link {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        background: #FFFFFF url(../img/instagram_wh.svg) no-repeat center;
+
+        &:hover {
+            background: #FFFFFF url(../img/instagram_wh_onHower.svg) no-repeat center;
+        }
+    }
+
+    .facebook {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        background: #FFFFFF url(../img/facebook_wh.svg) no-repeat center;
+
+        &:hover {
+            background: #FFFFFF url(../img/facebook_wh_onHover.svg) no-repeat center;
+        }
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .visa {
+        margin: 5px 24px 0 0;
+        display: inline-block;
+        background: url(../img/visa-logo.svg) no-repeat center;
+        width: 45px;
+        height: 15px;
+    }
+
+    #year {
+        order: 4;
+        margin-top: 24px;
+        width: 100%;
+        font-size: 15px;
+        @media (max-width: 556px) {
+            font-size: 15px;
+        }
+    }
+}
+
+.bots {
+    .bh-w-powered-by {
+        display: none;
+    }
+
+    .bot_bonuses {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .bh-w-button-telegram {
+        margin-left: 0;
+    }
+
+    .socials {
+        display: flex;
+        @media (max-width: 556px) {
+            justify-content: flex-end;
+        }
+    }
+
+    .arrow_left {
+        width: 90px;
+        height: 64px;
+        background-image: url("/img/bot_arrow.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        background-position: center;
+    }
+
+    .arrow_right {
+        width: 90px;
+        height: 64px;
+        background-image: url("/img/bot_arrow.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .arrow_right, .arrow_left {
+        margin-top: -13px;
+        @media (max-width: 556px) {
+            width: 60px;
+        }
+    }
+}

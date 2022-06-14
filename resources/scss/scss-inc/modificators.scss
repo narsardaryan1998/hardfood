@@ -1,0 +1,148 @@
+body._lock {
+    overflow: hidden;
+}
+
+._orangeBtn {
+    background: #EB6300;
+    box-shadow: 0px 16px 24px rgba(235, 99, 0, 0.24);
+    border-radius: 36px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 7px 20px 9px;
+    white-space: nowrap;
+    margin: 10px 0 0 10px;
+    @media (max-width: 556px) {
+        padding: 3px 10px 5px;
+        box-shadow: 0px 16px 24px rgba(235, 99, 0, 0.24);
+        font-size: 16px;
+        margin: 0px 0 0 5px;
+
+    }
+}
+
+._orange2 {
+    color: $cl_or;
+}
+
+._bonus {
+    position: absolute;
+    display: flex;
+    top: -60px;
+    left: 159px;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 56px;
+        height: 56px;
+        background: url('../img/bunner/present.png') no-repeat center;
+        position: absolute;
+        left: -40px;
+        top: 16%;
+    }
+
+    @media (max-width: 556px) {
+        position: relative;
+        margin-bottom: 16px;
+        top: 0;
+        left: 40px;
+    }
+}
+
+._whiteSpace {
+    @media (min-width: 556px) {
+        white-space: nowrap;
+    }
+}
+
+._bunner-3 {
+    ._bonus {
+        @media (max-width: 556px) {
+            img {
+                width: 73px;
+
+                &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.diet_kind_kkal {
+    @media (min-width: 556px) {
+        position: absolute;
+        top: 90px;
+        left: 180px;
+    }
+}
+
+._phone {
+    @media (min-width: 556px) {
+        display: none;
+    }
+    background: rgba(235, 99, 0, 0.96);
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    padding: 14px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 5px;
+    left: 97px;
+    z-index: 110;
+    transition: all 0.3s;
+
+    &._hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#_road-link {
+    color: inherit;
+}
+
+._opsty {
+    opacity: 0.4;
+}
+
+.time-to-eat {
+
+    width: 185px;
+    align-items: center;
+    padding: 14px 24px 16px;
+    margin-bottom: 16px;
+    height: 56px;
+    background: #FFFFFF;
+    @include regular_bx-shadow(rgba(255, 107, 0, 0.05));
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+    &._active {
+        background: $cl_or;
+        border: 1px solid $cl_or;
+        box-sizing: border-box;
+        box-shadow: 0px 8px 16px rgba(255, 107, 0, 0.2);
+        color: #FFFFFF;
+    }
+}
+
+._labal-container {
+    position: relative;
+
+    label {
+        position: absolute;
+        transition: all 0.3s;
+        padding: 0 4px;
+    }
+}
+
+span#number {
+    white-space: nowrap;
+}

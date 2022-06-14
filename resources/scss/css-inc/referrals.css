@@ -1,0 +1,15 @@
+.referrals_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.referrals_content__types:first-child {
+  border-right: 1px solid #15172120;
+}
+.referrals_content__types span {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+  color: #151721;
+  opacity: 0.4;
+}

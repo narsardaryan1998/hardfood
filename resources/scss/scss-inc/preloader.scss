@@ -1,0 +1,69 @@
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.progress {
+    height: 1rem;
+    line-height: 0;
+    font-size: .675rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.progress, .progress-bar {
+    display: flex;
+    overflow: hidden;
+}
+
+.progress-bar {
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3490dc;
+    transition: width .6s ease;
+}
+
+.bg-success {
+    background-color: #EB6300 !important;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #fff;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 360px;
+    margin-top: -255px;
+    margin-left: -160px;
+    text-align: center;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}

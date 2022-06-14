@@ -1,0 +1,436 @@
+.header__menu._scroll {
+    margin-bottom: 94px;
+    @media screen and (max-device-width: 556px) {
+        margin-bottom: 78px;
+    }
+    @media (min-width: 556px) {
+        .about_us {
+            display: none;
+        }
+        .about-fixed {
+            display: block;
+        }
+    }
+
+    .about-fixed {
+        // .about-fixed__btn
+
+        &__btn {
+            transition: left 0.5s;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $cl_or;
+            display: flex;
+            font-weight: 700;
+
+            ._burger {
+                display: flex;
+                height: 14px;
+                transition: all 0.3s;
+                flex-direction: column;
+                margin-right: 12px;
+                justify-content: space-between;
+                width: 32px;
+
+                span {
+                    transition: all 0.3s;
+                    width: 100%;
+                    height: 2px;
+                    background-color: $cl_or;
+                    opacity: 0.4;
+                }
+            }
+        }
+
+        // .about-fixed__menu
+
+        &__menu {
+            opacity: 0;
+            visibility: hidden;
+            width: 0;
+            transition: opacity 0.3s;
+            height: 0;
+        }
+
+        // .about-fixed__item
+
+        &__item {
+        }
+    }
+
+    .menu {
+        align-items: center;
+    }
+
+    .header__container {
+        @media (min-width: 556px) {
+            width: 1440px;
+            margin: 0 auto;
+            padding: 0 140px;
+        }
+    }
+
+    .header__wrapper {
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        min-height: 70px;
+        padding: 20px 0 0 0;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 6px 10px rgba(33, 29, 27, 0.07);
+    }
+
+    .about-fixed__btn:hover {
+        z-index: 102;
+        position: relative;
+        left: -20px;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -1;
+            width: 192px;
+            height: 169px;
+            background: #FFFFFF;
+            box-shadow: 0px 6px 10px rgba(33, 29, 27, 0.07);
+            border-radius: 24px;
+            top: -21px;
+            left: -24px;
+
+        }
+
+        ._burger {
+
+            span {
+                opacity: 1;
+                height: 4px;
+                border-radius: 20%;
+
+                &:last-child {
+                    width: 70%;
+                    height: 3px;
+                }
+            }
+        }
+
+        // .about-fixed__menu
+
+        .about-fixed__menu {
+            opacity: 1;
+            visibility: visible;
+            width: 400%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 20px;
+        }
+
+        // .about-fixed__item
+
+        .about-fixed__item {
+            font-size: 16px;
+            line-height: 20px;
+            color: #151721;
+            font-weight: 500;
+            margin-top: 16px;
+
+            &:hover {
+                color: $cl_or;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.conteiner {
+    width: 1440px;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+
+    & .header {
+        margin: 55px 140px;
+        align-items: center;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    .sub_title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        margin: -15px 0 0 0;
+    }
+
+    .comment {
+        line-height: 17px;
+        opacity: 0.6;
+    }
+
+    div {
+        .town_icon {
+            margin-top: -2px;
+            width: 17px;
+            height: 22px;
+        }
+
+        .town_name {
+            display: inline;
+            font-size: 16px;
+            line-height: 20px;
+            color: $cl_or;
+        }
+    }
+
+    .tell {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .ring_me {
+        margin: -14px 0 0 0;
+        width: 191px;
+        height: 44px;
+        border: 1px solid rgba(235, 99, 0, 0.4);
+        border-radius: 16px;
+        color: $cl_or;
+        font-size: 16px;
+        line-height: 20px;
+        transition: all 0.3s;
+        background: rgba(0, 0, 0, 0);
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(235, 99, 0, 0.12);
+            border: none;
+        }
+    }
+
+    .about_us {
+        font-size: 16px;
+        line-height: 16px;
+
+        div {
+            margin: 0 0 16px 0;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    .enter {
+        position: relative;
+        top: 2px;
+        font-size: 16px;
+    }
+}
+
+.town_icon:hover, .town_name:hover, .tell:hover, .about1:hover, .about2:hover, .about3:hover, .block_form:hover, .checkbox:hover, .enter:hover {
+    color: $cl_or;
+    cursor: pointer;
+}
+
+.tell {
+    color: #151721;
+}
+
+.about-fixed {
+    display: none;
+}
+
+@media (max-width: 556px) {
+    .conteiner {
+        width: 375px;
+
+        & .header {
+            margin: 22px 16px 48px 16px;
+        }
+    }
+    .menu {
+        padding: 0 16px;
+    }
+    .header__wrapper {
+        height: 50px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+
+        .sub_title {
+            font-size: 24px;
+            line-height: 29px;
+            margin: -6px 0 0 0;
+        }
+
+        .comment {
+            line-height: 17px;
+            opacity: 0.6;
+            font-size: 12px;
+        }
+
+        div {
+            .town_icon {
+                display: none;
+            }
+
+            .town_name {
+                display: none;
+            }
+        }
+
+        .tell {
+            font-size: 14px;
+            width: 112px;
+            display: flex;
+            text-align: right;
+            line-height: 20px;
+            flex-wrap: wrap;
+            white-space: nowrap;
+            @media (max-width: 556px) {
+                padding: 0;
+                background-color: transparent;
+            }
+
+            &:after {
+                content: "c 10:00 – 22:00";
+                font-size: 12px;
+                line-height: 15px;
+                opacity: 0.6;
+                width: 100%;
+            }
+        }
+
+        .ring_me {
+            display: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .about_us {
+            display: none;
+
+            div {
+                margin: 0 0 16px 0;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+
+        .enter {
+            display: none;
+        }
+    }
+
+    .town_icon:hover, .town_name:hover, .tell:hover, .about1:hover, .about2:hover, .about3:hover, .block_form:hover, .checkbox:hover, .enter:hover {
+        color: $cl_or;
+        cursor: pointer;
+    }
+
+    .checkbox {
+        display: none;
+    }
+}
+
+.checkbox {
+    &:hover {
+        &:after {
+            background-image: url(../img/moon_hover.svg);
+        }
+    }
+
+    &.active:hover {
+        &:after {
+            background-image: url(../img/moon_hover.svg);
+        }
+    }
+
+    & {
+        position: relative;
+        color: #fff;
+        transition: all 0.3s ease 0s;
+        width: 46px;
+        height: 28px;
+        transition: 0.5s;
+        top: -5px;
+    }
+
+    &:before {
+        content: "";
+        width: 46px;
+        height: 28px;
+        border-radius: 40px;
+        background: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+        transition: 0.5s;
+    }
+
+    &.active:before {
+        content: "";
+        width: 46px;
+        height: 28px;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.2);
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+        transition: 0.5s;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 2px;
+        top: 1.3px;
+        background: rgba(0, 0, 0);
+        border-radius: 50%;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+        background-image: url(../img/moon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s;
+
+        &:hover {
+            background-image: url(../img/moon_hover.svg);
+        }
+    }
+
+    &.active:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 19px;
+        top: 2px;
+        background: rgba(0, 0, 0);
+        border-radius: 50%;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+        background-image: url(../img/moon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s;
+    }
+
+    & input {
+        display: none;
+    }
+}
