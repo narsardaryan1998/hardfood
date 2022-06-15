@@ -36,7 +36,6 @@
                     <?php echo '©' . ' ' . date('Y');?>
                 </div>
                 <div class="bot_bonuses">
-                    Получи 150 бонусов за подписку!
                 </div>
             </div>
         </div>
@@ -52,22 +51,6 @@
         <div style="margin: -4px 0 0 0">
             <div class="visa"></div>
             <img src="/img/1x1.jpg" data-src="/img/Mastercard.svg">
-        </div>
-    </div>
-    <div class="bots">
-        <div class="bot_bonuses forDesktop">
-            Получи 150 бонусов за подписку!
-        </div>
-        <div class="socials">
-            <div class="arrow_left">
-            </div>
-            <div
-                id="bh-widget-button-root"
-                data-bh-widget-id="2"
-                data-bh-customer-id="244491">
-            </div>
-            <div class="arrow_right">
-            </div>
         </div>
     </div>
 </footer>
