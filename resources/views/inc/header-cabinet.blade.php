@@ -16,7 +16,7 @@
                     </div>
                     <a href="/" class="default-text-color">
                         <div>
-                            <div class="sub_title"><span class="from">от</span> бабули</div>
+                            <div class="sub_title"><span class="from">hard</span> food</div>
                             <div class="comment">= вкусно + полезно</div>
                         </div>
                     </a>

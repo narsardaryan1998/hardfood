@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Доставка готовой еды на дом: главные преимущества  заказа сбалансированной  готовой пищи | otbabuli.com')
+@section('title', 'Доставка готовой еды на дом: главные преимущества  заказа сбалансированной  готовой пищи | hardfood.ru')
 @section('description', 'Доставка готовой еды на дом: питание на всю неделю.Наборы готовой еды с доставкой на неделю ,свежая, вкусная и здоровая пища ')
-@section('url', 'https://otbabuli.com/blog/delivery')
+@section('url', 'https://hardfood.ru/blog/delivery')
 @section('image', '/images/blogs/delivery1.png')
 @section('content')
     <div class="article_page">

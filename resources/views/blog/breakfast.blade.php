@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Полезный  завтрак : что можно кушать утром при правильном питании | otbabuli.com')
+@section('title', 'Полезный  завтрак : что можно кушать утром при правильном питании | hardfood.ru')
 @section('description', 'Полезный завтрак при правильном питании.Какие продукты и фрукты  можно есть с утра : варианты завтрака и рецепт приготовления сытных батончиков')
-@section('url', 'https://otbabuli.com/blog/breakfast')
+@section('url', 'https://hardfood.ru/blog/breakfast')
 @section('image', '/images/blogs/breakfast3.png')
 @section('content')
     <div class="article_page">

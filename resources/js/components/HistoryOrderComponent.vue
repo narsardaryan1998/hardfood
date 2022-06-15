@@ -285,7 +285,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -326,7 +326,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -367,7 +367,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -408,7 +408,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url"  onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url"  onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -449,7 +449,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -494,7 +494,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal }} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>
@@ -539,7 +539,7 @@
                                             class="main_info"
                                         >/ {{prod.kcal}} кКал</div>
                                     </b>
-                                    <img :src="prod.url" onerror="this.src='/images/food_bg.jpg';" alt />
+                                    <img :src="prod.url" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" alt />
                                     <span>{{prod.name}}</span>
                                     <div class="food_item__info">
                                         <p>Б / {{prod.proteins}}</p>

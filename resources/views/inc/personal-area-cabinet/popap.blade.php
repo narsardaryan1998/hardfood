@@ -1202,7 +1202,7 @@
             </div>
             <div class="_dish-rating__dish_image_and_rating">
                 <div class="_dish-rating__image">
-                    <img src="/img/dishes_images/Салат%20Стройность%20с%20соусом%20песто.png" onerror="this.src='/images/food_bg.jpg';" class="border_radius lunch_image">
+                    <img src="/img/dishes_images/Салат%20Стройность%20с%20соусом%20песто.png" onerror="this.src='/images/zaglushka_Монтажная область 1.png';" class="border_radius lunch_image">
                 </div>
                 <div class="_dish-rating__rating forDesktop">
                     <div class="_dish-rating__rating__header">

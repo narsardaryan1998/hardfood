@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Избавление от жиров – правильный шаг к достижению успеха в своем внешнем виде | otbabuli.com')
+@section('title', 'Избавление от жиров – правильный шаг к достижению успеха в своем внешнем виде | hardfood.ru')
 @section('description', 'Если вы хотите достичь невероятных высот в коррекции своей фигуры, то необходимо составить план питания, который поможет добиться шикарного результата')
-@section('url', 'https://otbabuli.com/blog/drying')
+@section('url', 'https://hardfood.ru/blog/drying')
 @section('image', '/images/blogs/burn1.png')
 @section('content')
     <div class="article_page">

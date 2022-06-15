@@ -8,7 +8,6 @@
                     </div>
                     <a href="/#prepair" id="_road-link" class="burger-menu__item default-text-color">О нас</a>
                     <a id="_road-link" href="/#block1_chooseDiet" class="burger-menu__item default-text-color">Меню и тарифы</a>
-                    <a id="_road-link" href="/#instagram" class="burger-menu__item default-text-color">Отзывы</a>
                     <a href="/personal-area" v-if="userData.name && userData.loggedIn" class="default-text-color">@{{ userData.name }}</a>
                     <a href="/personal-area" v-else-if="userData.phone && userData.loggedIn" class="default-text-color">@{{ userData.phone | VMask('+7 (###) ### ## ##') }}</a>
                     <a href="/personal-area" v-if="userData.balance && userData.loggedIn" class="default-text-color"><span class="_orange2">@{{ userData.balance }}</span>
@@ -21,7 +20,7 @@
                 </div>
                 <a href="/" class="default-text-color">
                     <div>
-                        <div class="sub_title"><span class="from">от</span> бабули</div>
+                        <div class="sub_title"><span class="from">hard</span> food</div>
                         <div class="comment">= вкусно + полезно</div>
                     </div>
                 </a>
@@ -52,7 +51,6 @@
                             <div class="about-fixed__item"><a href="/#prepair" class="default-text-color" id="_road-link">О нас</a></div>
                             <div class="about-fixed__item"><a id="_road-link" class="default-text-color" href="/#block1_chooseDiet">Меню и
                                     тарифы</a></div>
-                            <div class="about-fixed__item"><a id="_road-link" class="default-text-color" href="/#instagram">Отзывы</a></div>
                         </div>
                     </div>
 
@@ -60,7 +58,6 @@
                 <div class="about_us">
                     <div class="about1"><a href="/#prepair" id="_road-link" class="default-text-color">О нас</a></div>
                     <div class="about2"><a id="_road-link" href="/#block1_chooseDiet" class="default-text-color">Меню и тарифы</a></div>
-                    <div class="about3"><a id="_road-link" href="/#instagram" class="default-text-color">Отзывы</a></div>
                 </div>
                 <div class="checkbox switchMode">
                     <input type="checkbox" name="ckeckbox_1">

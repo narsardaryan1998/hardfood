@@ -12,11 +12,11 @@
     <link rel="icon" href="/images/favicon.png" sizes="32x32"/>
     <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
-    <link rel="canonical" href="https://otbabuli.com/rules"/>
-    <meta property="og:title" content="Политика конфиденциальности | otbabuli.com"/>
+    <link rel="canonical" href="https://hardfood.ru/rules"/>
+    <meta property="og:title" content="Политика конфиденциальности | hardfood.ru"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="otbabuli.com"/>
-    <meta property="og:url" content="https://otbabuli.com/rules"/>
+    <meta property="og:site_name" content="hardfood.ru"/>
+    <meta property="og:url" content="https://hardfood.ru/rules"/>
     <meta property="og:image" content="/images/favicon.png"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="300"/>
@@ -32,7 +32,7 @@
         }();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1254477-daYMC" style="position:fixed; left:-999px;" alt=""/>
     </noscript>
-    <title>Политика конфиденциальности | otbabuli.com</title>
+    <title>Политика конфиденциальности | hardfood.ru</title>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
         <div class="content text-center">
             <div>
                 <h1>Согласие на обработку персональных данных</h1>
-                <p>Пользователь, заполняя форму заказа или обратной связи на интернет-сайте https://otbabuli.com и его
+                <p>Пользователь, заполняя форму заказа или обратной связи на интернет-сайте https://hardfood.ru и его
                     поддоменах, принимает настоящее Согласие на обработку персональных данных (далее – Согласие).
                     Действуя свободно, своей волей и в своем интересе, а также подтверждая свою дееспособность,
                     Пользователь дает свое согласие Индивидуальному предпринимателю Арутюнян Грише Арменовичу (ИНН
@@ -67,7 +67,7 @@
                         договора по инициативе субъекта персональных данных или договора, по которому субъект
                         персональных данных будет являться выгодоприобретателем или поручителем; аналитика действий
                         физического лица на веб- сайте и функционирование веб-сайта; проведение информационных и
-                        рекламных рассылок от имени сервиса от Бабули.
+                        рекламных рассылок от имени сервиса от HardFood.
                     </li>
                     <li>Основанием для обработки персональных данных является: ст. 24 Конституции Российской Федерации;
                         ст.6 Федерального закона No152-ФЗ «О персональных данных»; настоящее согласие на обработку
@@ -86,7 +86,7 @@
                     </li>
                     <li>Согласие может быть отозвано субъектом персональных данных или его представителем путем
                         направления заявления об отзыве согласия на обработку персональных данных на электронную почту:
-                        otbabuli.com@gmail.com.
+                        hardfood.ru@gmail.com.
                     </li>
                     <li>В случае отзыва субъектом персональных данных или его представителем согласия на обработку
                         персональных данных ИП Арутюнян ГА вправе продолжить обработку персональных данных без согласия

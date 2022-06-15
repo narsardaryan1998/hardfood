@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Авокадо: имеет необычайно много полезных свойств для организма человека  | otbabuli.com')
+@section('title', 'Авокадо: имеет необычайно много полезных свойств для организма человека  | hardfood.ru')
 @section('description', 'Авокадо полезный продукт при правильном питании , обладает множеством полезных свойств. Главный вопрос это фрукт или овощ и как же выбрать спелый и вкусный авокадо?')
-@section('url', 'https://otbabuli.com/blog/avocado')
+@section('url', 'https://hardfood.ru/blog/avocado')
 @section('image', '/images/blogs/avokado2.png')
 @section('content')
     <div class="article_page">

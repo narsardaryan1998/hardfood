@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Эффект плато - факторы возникновения и советы как преодолеть остановку веса | otbabuli.com')
+@section('title', 'Эффект плато - факторы возникновения и советы как преодолеть остановку веса | hardfood.ru')
 @section('description', 'Эффект плато - основные факторы способствующие его появлению и советы по преодолению.Эффективная диета при похудении зигзаг калорий, её суть и как она работает.')
-@section('url', 'https://otbabuli.com/blog/diet')
+@section('url', 'https://hardfood.ru/blog/diet')
 @section('image', '/images/blogs/dieta2.png')
 @section('content')
     <div class="article_page">

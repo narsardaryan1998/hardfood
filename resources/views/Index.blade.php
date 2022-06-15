@@ -12,11 +12,11 @@
     <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
     <meta name="msapplication-TileImage" content="/images/favicon.png"/>
-    <link rel="canonical" href="https://otbabuli.com/"/>
-    <meta property="og:title" content="Доставка еды на дом - готовое питание на неделю от Бабули | otbabuli.com"/>
+    <link rel="canonical" href="https://hardfood.ru/"/>
+    <meta property="og:title" content="Доставка еды на дом - готовое питание на неделю от HardFood | hardfood.ru"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="otbabuli.com"/>
-    <meta property="og:url" content="https://otbabuli.com/"/>
+    <meta property="og:site_name" content="hardfood.ru"/>
+    <meta property="og:url" content="https://hardfood.ru/"/>
     <meta property="og:image" content="/images/favicon.png"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="300"/>
@@ -31,7 +31,7 @@
         }();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1254477-daYMC" style="position:fixed; left:-999px;" alt=""/>
     </noscript>
-    <title>Доставка еды на дом - готовое питание на неделю от Бабули | otbabuli.com</title>
+    <title>Доставка еды на дом - готовое питание на неделю от HardFood | hardfood.ru</title>
     <meta name="description"
           content="Заказать правильное питание на каждый день! Всего от 700р в день, с доставкой по Москве. Готовые наборы домашних блюд.">
     <script src="https://www.googleoptimize.com/optimize.js?id=GTM-P9RJV5R"></script>
@@ -121,67 +121,6 @@
                             <img src="/img/1x1.jpg" data-src="/img/kitchen-3.jpg" height="430px">
                         </div>
                         <div class="reactage"></div>
-                    </div>
-                    <div id="instagram" class="advantages_block2_inInstagram">
-                        <div class="advantages_block2_inInstagram_title">
-                            Отзывы<span class="opsty_4">,<br> еще больше в</span> <a target="blank"
-                                                                                     href="https://www.instagram.com/otbabuli">
-                                <span class="instagram">Instagram</span> </a>
-                        </div>
-                        <div style="position: relative;">
-                            <div class="opacity-block_2"></div>
-                            <div class="advantages_block2_imgs_slider">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/1_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/2_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/3_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/4_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/5_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/6_3.jpg">
-                                <img class="advantages_block2_image" src="/img/1x1.jpg"
-                                     data-src="/img/Instagram/7_3.jpg">
-                            </div>
-                        </div>
-                        <div style="margin-top: 70px;">
-                            <div class="advantages_aboutServis_title"><span class="opsty_4">О сервисе</span> «<span
-                                    class="from">от</span> бабули»
-                            </div>
-                            <div class="advantages_aboutServis_subtitle">
-                                <div class="aboutServis_subtitle1">
-                                    Наш сервис доставки еды был основал в 2017 году. <br> Мы производим и доставляем по
-                                    Москве и
-                                    Московской обрасти. У нас собственное производство и логистика, что позволяет
-                                    контролировать каждый
-                                    этап, от закупи продуктов до доставки готовых рационов.
-                                </div>
-                                <div class="aboutServis_subtitle2">
-                                    Цель нашей компании — делать жизнь наших клиентов эффективнее. Больше не нужно
-                                    решать,
-                                    какие блюда
-                                    приготовить, ходить в магазин, мыть посуду. Мы сами доставим вкусную готовую еду на
-                                    дом
-                                    в удобное
-                                    время и место. Вам необходимо только <a href="#block1_chooseDiet"><span
-                                            class="orenge_dashed">выбрать подходящий рацион.</span></a>
-                                </div>
-                            </div>
-                            <div class="aboutServis_watchMenu">
-                                <a href="#block1_chooseDiet">
-                                    <button class="aboutServis_watchMenu_btn btn1">Смотреть меню</button>
-                                </a>
-                                <div class="aboutServis_watchMenu_btn_comment">
-                                    * Фотографии блюд на сайте являются вариантом сервировки блюда. Внешний вид блюда
-                                    может
-                                    отличаться от
-                                    фотографии на сайте.
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 @include('inc.regular_questions')

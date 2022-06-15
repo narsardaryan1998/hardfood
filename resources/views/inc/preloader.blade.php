@@ -4,11 +4,11 @@
                                 height: 70px;
                                 font-size: 20px;
                                 font-weight: bold;">
-            ПОДОЖДИТЕ НЕМНОГО, БАБУЛЯ ПОДБИРАЕТ ДЛЯ ВАС РАЦИОН
+            ПОДОЖДИТЕ НЕМНОГО, HARDFOOD ПОДБИРАЕТ ДЛЯ ВАС РАЦИОН
         </div>
         <div class="row" style="margin-top: 20px;margin-bottom: 25px;">
             <div style="width: 200px; height: 360px; float: left; ">
-                <img src="../images/preload/grandma.jpg">
+{{--                <img src="../images/preload/grandma.jpg">--}}
             </div>
             <div style="width: 120px; height: 360px; float: left;">
                 <div style="width: 118px; height:  118px; margin-bottom: 3px; ">

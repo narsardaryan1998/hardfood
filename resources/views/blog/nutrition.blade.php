@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Дробное питание  - основные правила для составления меню правильного питания | otbabuli.com')
+@section('title', 'Дробное питание  - основные правила для составления меню правильного питания | hardfood.ru')
 @section('description', 'Дробное питание : основные правила для похудения и незаменимые советы при составлении  примерного меню дробного питания на неделю (месяц)')
-@section('url', 'https://otbabuli.com/blog/nutrition')
+@section('url', 'https://hardfood.ru/blog/nutrition')
 @section('image', '/images/blogs/nutrition1.png')
 @section('content')
     <div class="article_page">

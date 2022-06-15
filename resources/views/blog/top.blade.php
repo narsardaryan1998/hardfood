@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Правильное питание - ТОП 5 базовых советов  для здорового питания | otbabuli.com')
+@section('title', 'Правильное питание - ТОП 5 базовых советов  для здорового питания | hardfood.ru')
 @section('description', 'ТОП-5 советов по правильному питанию. ПП способствует здоровому образу жизни, питание человека является важным фактором - соблюдение основных правил правильного питания поможет избежать проблемы со здоровьем')
-@section('url', 'https://otbabuli.com/blog/top')
+@section('url', 'https://hardfood.ru/blog/top')
 @section('image', '/images/blogs/top5.png')
 @section('content')
     <div class="article_page">

@@ -13,11 +13,11 @@
     <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
     <meta name="msapplication-TileImage" content="/images/favicon.png"/>
-    <link rel="canonical" href="https://otbabuli.com/personal-area/referrals"/>
-    <meta property="og:title" content="Пригласи друга - Личный кабинет | otbabuli.com"/>
+    <link rel="canonical" href="https://hardfood.ru/personal-area/referrals"/>
+    <meta property="og:title" content="Пригласи друга - Личный кабинет | hardfood.ru"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="otbabuli.com"/>
-    <meta property="og:url" content="https://otbabuli.com/personal-area/referrals"/>
+    <meta property="og:site_name" content="hardfood.ru"/>
+    <meta property="og:url" content="https://hardfood.ru/personal-area/referrals"/>
     <meta property="og:image" content="/images/favicon.png"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="300"/>
@@ -33,7 +33,7 @@
         }();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1254477-daYMC" style="position:fixed; left:-999px;" alt=""/>
     </noscript>
-    <title>Пригласи друга - Личный кабинет | otbabuli.com</title>
+    <title>Пригласи друга - Личный кабинет | hardfood.ru</title>
 </head>
 
 <body>

@@ -1,13 +1,13 @@
 @extends('blog.layout')
-@section('title', 'Статьи про питание | От Бабули | otbabuli.com')
-@section('description', 'Полезная и качественная информация про правильное и здоровое питание в блоге компании От Бабули!')
-@section('url', 'https://otbabuli.com/blog')
+@section('title', 'Статьи про питание | От HardFood | hardfood.ru')
+@section('description', 'Полезная и качественная информация про правильное и здоровое питание в блоге компании От HardFood!')
+@section('url', 'https://hardfood.ru/blog')
 @section('image', '/images/favicon.png')
 @section('content')
     <div class="content text-center">
         <div class="blogs-from-grandmother">
             <div class="page-header">
-                <h1>Блог от Бабули</h1>
+                <h1>Блог от HardFood</h1>
             </div>
             <div class="article-content">
                 <div class="article">

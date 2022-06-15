@@ -15,7 +15,7 @@
     <link rel="canonical" href="@yield('url')"/>
     <meta property="og:title" content="@yield('title')"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="otbabuli.com"/>
+    <meta property="og:site_name" content="hardfood.ru"/>
     <meta property="og:url" content="@yield('url')"/>
     <meta property="og:image" content="@yield('image')"/>
     <meta property="og:image:width" content="400"/>
@@ -48,7 +48,7 @@
                             </div>
                             <a href="/" class="default-text-color">
                                 <div>
-                                    <div class="sub_title"><span class="from">от</span> бабули</div>
+                                    <div class="sub_title"><span class="from">hard</span> food</div>
                                     <div class="comment">= вкусно + полезно</div>
                                 </div>
                             </a>

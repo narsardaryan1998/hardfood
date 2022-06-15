@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Администраторская панель - otBabuli.com</title>
+    <title>Администраторская панель - hardfood.ru</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">

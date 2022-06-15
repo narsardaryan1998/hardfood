@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Стевия - неотъемлемая часть рациона для правильного питания, самый популярный сахарозаменитель в мире | otbabuli.com')
+@section('title', 'Стевия - неотъемлемая часть рациона для правильного питания, самый популярный сахарозаменитель в мире | hardfood.ru')
 @section('description', 'Стевия от «А» до «Я» - самый популярный сахарозаменитель в мире .В чем заключается вред и польза, все за и против . Стевия важная часть рациона в ней имеется активный компонент стевиозид , который не содержит калорий')
-@section('url', 'https://otbabuli.com/blog/stevia')
+@section('url', 'https://hardfood.ru/blog/stevia')
 @section('image', '/images/blogs/steviya.png')
 @section('content')
     <div class="article_page">

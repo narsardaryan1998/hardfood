@@ -8210,7 +8210,7 @@ var app = new Vue({
                 $('.sample_menu_menu').slick('slickAdd', ' <div\n' +
                     '                :key="prod.dishID"\n' +
                     '                class="lunch">\n' +
-                    '                <img src="' + value.url + '" onerror="this.src=\'/images/food_bg.jpg\';" class="border_radius lunch_image">\n' +
+                    '                <img src="' + value.url + '" onerror="this.src=\'/images/zaglushka_Монтажная область 1.png\';" class="border_radius lunch_image">\n' +
                     '                <div class="lunch_time">\n' +
                     '                    №' + index + ' <span class="opsty_4">' + value.kcal + ' Ккал Б' + value.proteins + ' Ж' + value.fats + ' У' + value.carbs + '</span>\n' +
                     '                </div>\n' +
@@ -8558,7 +8558,7 @@ var app = new Vue({
                     $('.delivery_menu_menu').slick('slickAdd', ' <div\n' +
                         '                :key="prod.dishID"\n' +
                         '                class="lunch">\n' +
-                        '                <img src="' + value.url + '" onerror="this.src=\'/images/food_bg.jpg\';" class="border_radius lunch_image">\n' +
+                        '                <img src="' + value.url + '" onerror="this.src=\'/images/zaglushka_Монтажная область 1.png\';" class="border_radius lunch_image">\n' +
                         '                <div class="lunch_time">\n' +
                         '                    №' + index + ' <span class="opsty_4">' + value.kcal + ' Ккал Б' + value.proteins + ' Ж' + value.fats + ' У' + value.carbs + '</span>\n' +
                         '                </div>\n' +
@@ -8574,7 +8574,7 @@ var app = new Vue({
                     $('.delivery_menu_menu_mobile_' + this.openedOrderIndex + '_' + this.updatedDeliveryIndex).slick('slickAdd', ' <div\n' +
                         '                :key="prod.dishID"\n' +
                         '                class="lunch">\n' +
-                        '                <img src="' + value.url + '" onerror="this.src=\'/images/food_bg.jpg\';" class="border_radius lunch_image">\n' +
+                        '                <img src="' + value.url + '" onerror="this.src=\'/images/zaglushka_Монтажная область 1.png\';" class="border_radius lunch_image">\n' +
                         '                <div class="lunch_time">\n' +
                         '                    №' + index + ' <span class="opsty_4">' + value.kcal + ' Ккал Б' + value.proteins + ' Ж' + value.fats + ' У' + value.carbs + '</span>\n' +
                         '                </div>\n' +

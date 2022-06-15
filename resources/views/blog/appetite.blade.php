@@ -1,7 +1,7 @@
 @extends('blog.layout')
-@section('title', 'Как снизить аппетит и уменьшить чувство голода без вреда для здоровья ? | otbabuli.com')
+@section('title', 'Как снизить аппетит и уменьшить чувство голода без вреда для здоровья ? | hardfood.ru')
 @section('description', 'Снижение аппетита без вреда для здоровья.Как побороть чувство голода и умерить аппетит : правильный рацион поможет убить аппетит без  вреда для организма человека')
-@section('url', 'https://otbabuli.com/blog/appetite')
+@section('url', 'https://hardfood.ru/blog/appetite')
 @section('image', '/images/blogs/appetit3.png')
 @section('content')
     <div class="article_page">

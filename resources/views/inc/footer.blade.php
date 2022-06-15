@@ -2,7 +2,7 @@
     <div class="menu">
         <a href="/" class="default-text-color">
             <div>
-                <div class="sub_title"><span class="from">от</span> бабули</div>
+                <div class="sub_title"><span class="from">hard</span> food</div>
                 <div class="comment">= вкусно + полезно</div>
             </div>
         </a>
@@ -17,7 +17,6 @@
             <div class="about1"><a href="/#prepair" class="default-text-color" id="_road-link">О нас</a></div>
             <div class="about2"><a id="_road-link" class="default-text-color" href="/#block1_chooseDiet">Меню и
                     тарифы</a></div>
-            <div class="about3"><a id="_road-link" class="default-text-color" href="/#instagram">Отзывы</a></div>
         </div>
         <div class="checkbox switchMode">
             <input type="checkbox" name="ckeckbox_1">
@@ -45,15 +44,10 @@
             <a href="/rules" class="default-text-color">Политика конфиденциальности</a>
         </div>
         <div class="social">
-            <a target="blank" href="https://www.instagram.com/otbabuli">
-                <div class="instagram_link"></div>
-            </a>
-            <a target="blank" href="https://www.facebook.com/otbabuli">
-                <div class="facebook"></div>
-            </a>
+
         </div>
         <div class="blog">
-            <a href="/blog" class="default-text-color">Блог от бабули</a>
+            <a href="/blog" class="default-text-color">Блог от HardFood</a>
         </div>
         <div style="margin: -4px 0 0 0">
             <div class="visa"></div>
