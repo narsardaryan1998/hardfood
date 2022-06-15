@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="icon" href="/images/favicon.png" sizes="32x32" />
-    <link rel="icon" href="/images/favicon.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="/images/favicon.png" />
-    <meta name="msapplication-TileImage" content="/images/favicon.png" />
+    <link rel="icon" href="/images/logo_hf.ico" sizes="32x32" />
+    <link rel="icon" href="/images/logo_hf.ico" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/images/logo_hf.ico" />
+    <meta name="msapplication-TileImage" content="/images/logo_hf.ico" />
     <link href="{{ mix('css/app.css') }}?ver=10000018" rel="stylesheet">
 </head>
 <body>

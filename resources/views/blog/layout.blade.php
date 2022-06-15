@@ -9,9 +9,9 @@
           rel="stylesheet">
     <link id="cssFile" rel="stylesheet" href="/css/blog.css">
     <link rel="stylesheet" href="/css/light-mode.css" id="theme">
-    <link rel="icon" href="/images/favicon.png" sizes="32x32"/>
-    <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="32x32"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/logo_hf.ico"/>
     <link rel="canonical" href="@yield('url')"/>
     <meta property="og:title" content="@yield('title')"/>
     <meta property="og:type" content="website"/>
@@ -48,7 +48,7 @@
                             </div>
                             <a href="/" class="default-text-color">
                                 <div>
-                                    <div class="sub_title"><span class="from">hard</span> food</div>
+                                    <div class="sub_title">HardFood</div>
                                     <div class="comment">= вкусно + полезно</div>
                                 </div>
                             </a>

@@ -2,7 +2,7 @@
     <div class="menu">
         <a href="/" class="default-text-color">
             <div>
-                <div class="sub_title"><span class="from">hard</span> food</div>
+                <div class="sub_title">HardFood</div>
                 <div class="comment">= вкусно + полезно</div>
             </div>
         </a>

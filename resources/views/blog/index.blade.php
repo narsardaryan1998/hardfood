@@ -2,7 +2,7 @@
 @section('title', 'Статьи про питание | От HardFood | hardfood.ru')
 @section('description', 'Полезная и качественная информация про правильное и здоровое питание в блоге компании От HardFood!')
 @section('url', 'https://hardfood.ru/blog')
-@section('image', '/images/favicon.png')
+@section('image', '/images/logo_hf.ico')
 @section('content')
     <div class="content text-center">
         <div class="blogs-from-grandmother">

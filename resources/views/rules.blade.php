@@ -9,21 +9,21 @@
           rel="stylesheet">
     <link id="cssFile" rel="stylesheet" href="/css/rules.css?ver=1100064">
     <link rel="stylesheet" href="/css/light-mode.css" id="theme">
-    <link rel="icon" href="/images/favicon.png" sizes="32x32"/>
-    <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="32x32"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/logo_hf.ico"/>
     <link rel="canonical" href="https://hardfood.ru/rules"/>
     <meta property="og:title" content="Политика конфиденциальности | hardfood.ru"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="hardfood.ru"/>
     <meta property="og:url" content="https://hardfood.ru/rules"/>
-    <meta property="og:image" content="/images/favicon.png"/>
+    <meta property="og:image" content="/images/logo_hf.ico"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="300"/>
     <meta property="og:image:type" content="image/png"/>
     <script src="https://www.googleoptimize.com/optimize.js?id=GTM-P9RJV5R"></script>
     <script src="https://main.bothelp.io/w/widget-button.js" defer></script>
-    <meta name="msapplication-TileImage" content="/images/favicon.png"/>
+    <meta name="msapplication-TileImage" content="/images/logo_hf.ico"/>
     <script type="text/javascript">!function () {
             var t = document.createElement("script");
             t.type = "text/javascript", t.async = !0, t.src = 'https://vk.com/js/api/openapi.js?169', t.onload = function () {

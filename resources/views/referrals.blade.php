@@ -9,16 +9,16 @@
           rel="stylesheet">
     <link id="cssFile" rel="stylesheet" href="/css/personel-area.css?ver=1100064">
     <link rel="stylesheet" href="/css/light-mode.css" id="theme">
-    <link rel="icon" href="/images/favicon.png" sizes="32x32"/>
-    <link rel="icon" href="/images/favicon.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="/images/favicon.png"/>
-    <meta name="msapplication-TileImage" content="/images/favicon.png"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="32x32"/>
+    <link rel="icon" href="/images/logo_hf.ico" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/logo_hf.ico"/>
+    <meta name="msapplication-TileImage" content="/images/logo_hf.ico"/>
     <link rel="canonical" href="https://hardfood.ru/personal-area/referrals"/>
     <meta property="og:title" content="Пригласи друга - Личный кабинет | hardfood.ru"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="hardfood.ru"/>
     <meta property="og:url" content="https://hardfood.ru/personal-area/referrals"/>
-    <meta property="og:image" content="/images/favicon.png"/>
+    <meta property="og:image" content="/images/logo_hf.ico"/>
     <meta property="og:image:width" content="400"/>
     <meta property="og:image:height" content="300"/>
     <meta property="og:image:type" content="image/png"/>
