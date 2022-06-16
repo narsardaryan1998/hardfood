@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon-precomposed" href="/images/logo_hf.ico"/>
     <meta name="msapplication-TileImage" content="/images/logo_hf.ico"/>
     <link rel="canonical" href="https://hardfood.ru/"/>
-    <meta property="og:title" content="Доставка еды на дом - готовое питание на неделю от HardFood | hardfood.ru"/>
+    <meta property="og:title" content="Доставка вкусной готовой еды на неделю 🥘 | hardfood.ru"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="hardfood.ru"/>
     <meta property="og:url" content="https://hardfood.ru/"/>
@@ -31,9 +31,9 @@
         }();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1254477-daYMC" style="position:fixed; left:-999px;" alt=""/>
     </noscript>
-    <title>Доставка еды на дом - готовое питание на неделю от HardFood | hardfood.ru</title>
+    <title>Доставка вкусной готовой еды на неделю 🥘 | hardfood.ru</title>
     <meta name="description"
-          content="Заказать правильное питание на каждый день! Всего от 700р в день, с доставкой по Москве. Готовые наборы домашних блюд.">
+          content="Готовые рационы правильного питания с доставкой по Москве и Московской области. По-домашнему вкусно и разнообразно, от 4 до 6 блюд в день (1200 до 2000 ккал).">
     <script src="https://www.googleoptimize.com/optimize.js?id=GTM-P9RJV5R"></script>
 </head>
 <body>
