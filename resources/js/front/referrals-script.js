@@ -8181,7 +8181,7 @@ var app = new Vue({
             } else if (choosedRation == 'm' && timeToEat == 7 && chosenWeek == 1) {
                 this.forCheckValues(index, 5, 950, 6650, 199, 0, 1000, '3 доставки на 7 дней питания', forCart);
             } else if (choosedRation == 'm' && timeToEat == 7 && chosenWeek == 2) {
-                this.forCheckValues(index, 5, 903, 12670, 380, 13300, 950, '6 доставок на 14 дней питания', forCart);
+                this.forCheckValues(index, 5, 905, 12670, 380, 13300, 950, '6 доставок на 14 дней питания', forCart);
             } else if (choosedRation == 'm' && timeToEat == 7 && chosenWeek == 3) {
                 this.forCheckValues(index, 5, 866, 18200, 546, 0, 950, '9 доставок на 21 день питания', forCart);
             } else if (choosedRation == 'm' && timeToEat == 7 && chosenWeek == 4) {

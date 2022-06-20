@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
           rel="stylesheet">
-    <link id="cssFile" rel="stylesheet" href="/css/rules.css?ver=1100064">
+    <link id="cssFile" rel="stylesheet" href="/css/rules.css?ver=1100065">
     <link rel="stylesheet" href="/css/light-mode.css" id="theme">
     <link rel="icon" href="/images/logo_hf.ico" sizes="32x32"/>
     <link rel="icon" href="/images/logo_hf.ico" sizes="192x192"/>
@@ -166,7 +166,7 @@
         integrity="sha512-fFkDTD3GpiLXZBIrfRu0etHZkCdWPkcNy4TjDqI3gQFVfbbDRFG5vV7w3mIeeOCvUY5cEKTUFiTetIsFtWjF1Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
-<script src="/js/main-script-dist.js?ver=1100064"></script>
-<script src="/js/preloader.js?ver=1100064"></script>
+<script src="/js/main-script-dist.js?ver=1100065"></script>
+<script src="/js/preloader.js?ver=1100065"></script>
 </body>
 </html>

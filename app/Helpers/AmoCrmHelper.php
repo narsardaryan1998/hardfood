@@ -515,6 +515,26 @@ class AmoCrmHelper
             }
         }
 
+        if (strtoupper($promoCode) == 'JUNE' && count($cart) === 1) {
+            $cart = $cart[0];
+            if ($cart['chosenWeek'] == 1) {
+                return [
+                    'successfullyFound' => false,
+                    'promoCodeUsingText' => 'Промокод действует на заказы от 10 дней питания',
+                    'promoCodeSaleCost' => '',
+                    'promoCodeType' => 'special',
+                    'moreBonuses' => false,
+                ];
+            }
+            return [
+                'successfullyFound' => true,
+                'promoCodeUsingText' => 'Промокод применен! Скидка 700 ₽',
+                'promoCodeSaleCost' => 700,
+                'promoCodeType' => 'special',
+                'moreBonuses' => false,
+            ];
+        }
+
         if (strtoupper($promoCode) == 'TRY') {
             if (count($orders) == 0) {
                 return [
@@ -743,6 +763,18 @@ class AmoCrmHelper
         }
 
         if (count($orders) == 0 && strtoupper($promoCode) == 'FIRST' && $cart[0]['chosenWeek'] != 4 && count($cart) === 1) {
+            $successfullyFound = true;
+            $saleCost = 700;
+            $promoCodeType = 'special';
+            PromocodesUsing::create([
+                'phone' => Auth::user()->phone,
+                'promocodeId' => strtoupper($promoCode),
+                'description' => 'Скидка 700 рубль',
+                'price' => $price - 700,
+            ]);
+        }
+
+        if (strtoupper($promoCode) == 'JUNE' && $cart[0]['chosenWeek'] != 1 && count($cart) === 1) {
             $successfullyFound = true;
             $saleCost = 700;
             $promoCodeType = 'special';

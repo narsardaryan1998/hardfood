@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link id="cssFile" rel="stylesheet" href="/css/style.css?ver=1100064">
+    <link id="cssFile" rel="stylesheet" href="/css/style.css?ver=1100065">
     <link rel="stylesheet" href="/css/light-mode.css" id="theme">
     <link rel="icon" href="/images/logo_hf.ico" sizes="32x32"/>
     <link rel="icon" href="/images/logo_hf.ico" sizes="192x192"/>
@@ -127,7 +127,7 @@
         integrity="sha512-fFkDTD3GpiLXZBIrfRu0etHZkCdWPkcNy4TjDqI3gQFVfbbDRFG5vV7w3mIeeOCvUY5cEKTUFiTetIsFtWjF1Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
-<script src="/js/gratitude-script-dist.js?ver=1100064"></script>
-<script src="/js/preloader.js?ver=1100064"></script>
+<script src="/js/gratitude-script-dist.js?ver=1100065"></script>
+<script src="/js/preloader.js?ver=1100065"></script>
 </body>
 </html>
